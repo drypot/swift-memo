@@ -19,13 +19,13 @@
 Static properties 들 또한 lazy 하다.
 이들 초기화도 Thread Safe 하다.
 
-Thread Safe 한데 심지어 퍼포먼스 문제도 없다고 한다.
+Thread Safe 한데 심지어 퍼포먼스 문제도 없다고 한다.\
 https://mikeash.com/pyblog/friday-qa-2014-06-06-secrets-of-dispatch_once.html
 
-Swift globals and static members are atomic and lazily computed
+Swift globals and static members are atomic and lazily computed\
 https://www.jessesquires.com/blog/2020/07/16/swift-globals-and-static-members-are-atomic-and-lazily-computed/
 
-Global and Local Variables
+Global and Local Variables\
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Global-and-Local-Variables
 
 ## 싱글턴
