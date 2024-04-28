@@ -20,13 +20,13 @@ Static properties 들 또한 lazy 하다.
 이들 초기화도 Thread Safe 하다.
 
 Thread Safe 한데 심지어 퍼포먼스 문제도 없다고 한다.\
-https://mikeash.com/pyblog/friday-qa-2014-06-06-secrets-of-dispatch_once.html
+<https://mikeash.com/pyblog/friday-qa-2014-06-06-secrets-of-dispatch_once.html>
 
 Swift globals and static members are atomic and lazily computed\
-https://www.jessesquires.com/blog/2020/07/16/swift-globals-and-static-members-are-atomic-and-lazily-computed/
+<https://www.jessesquires.com/blog/2020/07/16/swift-globals-and-static-members-are-atomic-and-lazily-computed/>
 
 Global and Local Variables\
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Global-and-Local-Variables
+<https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Global-and-Local-Variables>
 
 ## 싱글턴
 
@@ -94,7 +94,7 @@ actor 에 대한 외부 접근이 자동으로 스케쥴링된다.
 
 단점, Lock 에 비해 느리다,
 
-https://www.avanderlee.com/swift/actors/
+<https://www.avanderlee.com/swift/actors/>
 
 ## MainActor
 
@@ -113,7 +113,7 @@ https://www.avanderlee.com/swift/actors/
 
 클래스 접근을 Main thread 로 제한하고 싶으면 `@MainActor` 어노테이션을 쓰면 된다.
 
-https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/
+<https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/>
 
 ## Benchmark
 
@@ -123,5 +123,5 @@ https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/
 
 OSAllocatedUnfairLock 이 빠르긴 하다;
 
-https://forums.swift.org/t/simple-state-protection-via-actor-vs-dispatchqueue-sync/66184/7
+<https://forums.swift.org/t/simple-state-protection-via-actor-vs-dispatchqueue-sync/66184/7>
 
