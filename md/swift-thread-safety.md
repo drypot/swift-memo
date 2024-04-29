@@ -11,7 +11,7 @@ let 에 대해서, 그것이 밸류 타입이라면, 여러 스레드에서 읽�
 하지만 밸류 타입이 레퍼런스 타입 프로퍼티를 품고 있다면,
 레퍼런스 타입의 모든 프로퍼티가 리커시브하게 let 이어야 여러 스레드에서 읽을 수 있다.
 
-<https://forums.swift.org/t/understanding-swifts-value-type-thread-safety/41406/13>
+<https://forums.swift.org/t/understanding-swifts-value-type-thread-safety/41406/14>
 
 ## Global var, Static properties
 
