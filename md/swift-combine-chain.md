@@ -5,7 +5,7 @@
 Swift Combine 체인이 만들어지는 과정을 정리.
 
 위치가 옮겨질 수도 있겠지만, 전체 코드는 대략 아래 어디쯤 있을 것이다.\
-https://github.com/drypot/hello-swift/tree/main/HelloSwiftFrameworkTests/Combine
+https://github.com/drypot/hello-swift/tree/main/HelloSwiftFrameworkTests/ReactiveX
 
 ## 절차
 
