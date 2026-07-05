@@ -169,7 +169,7 @@ Actor를 넘나들려면 await 해야 한다.
 이제 과거의 Thread 개념을 쓰지 않고 Actor 개념을 쓰기 때문에
 과거의 Main Thread 같은 것이 필요한데 그게 MainActor이다.
 
-Swift 프로프램의 기본 실행 공간은 MainActor로 격리된다.
+Swift 코드의 기본 실행 공간은 MainActor로 격리된다.
 백그라운드 Task 들이 MainActor 안에 있는 변수나 펑션에 접근하려면 await 해야 한다.
 
 과거에는 이렇게 명시적으로 MainActor 표시를 하거나,
